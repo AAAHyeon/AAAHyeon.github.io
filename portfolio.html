@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+     /*전체 배경색과 폰트 */
+    
+    body {
+        background-color : #212121;
+        color : #ffffff;
+        font-family : "나눔스퀘어";
+    
+    }
+    
+/*사이트 로고*/
+    .site {
+        display : inline-block;
+        color : #cccccc;
+        text-decoration :none;
+        padding-bottom : 0px;
+        font-family : "barcode font";
+        font-size : 60px;
+        margin-left: 15px
+    }
+    .site:hover {
+        text-decoration : underline;
+        color : #606060;
+        font-size: 55px;
+    }
+    
+    h2 {
+        margin-left : 20px;
+    }
+    p {
+        margin-left : 40px
+    }
+    
+    /*메인메뉴*/
+    #main_menu ul {
+        margin : 0;
+        padding : 0;
+        margin-top : 0px;       
+    }
+    #main_menu  a {
+        text-decoration : none;
+                color : #afafaf;
+        font-family : "빙그레체";
+        font-weight : bold;
+        font-size : 12px;
+        display : inline-block;
+        padding : 0px 0px 5px 0px;
+        margin-right :5px;
+    
+         }
+    #main_menu a:hover {
+        color: #98a8ff;
+        font-family : "배달의민족 주아";
+        font-weight : 100;
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+    }
+    
+    #headC {
+        float : right;
+        margin-right : 1px;
+        list-style: none;
+    }
+    
+ 
+    
+   
+/*이미지 효과*/
+    
+        .pofol {
+          font-family: "나눔스퀘어";
+          position: relative;
+          overflow: hidden;
+          min-width: 230px;
+          max-width: 315px;
+          width: 100%;
+          color: #4f5052;
+          text-align: left;
+          line-height: 1.4em;
+          font-size: 16px;
+          float:left;
+          margin:10px;
+
+
+        }
+        .pofol * {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transition: all 0.35s ease;
+          transition: all 0.35s ease;
+        }
+        .pofol img {
+          max-width: 100%;
+          vertical-align: top;
+        }
+        .pofol figcaption {
+          position: absolute;
+          top: calc(100%);
+          width: 100%;
+          background-color: #ffffff;
+          padding: 15px 25px 65px;
+        }
+
+
+        .pofol h3,
+        .pofol p {
+          margin: 0 0 10px;
+        }
+        .pofol h3 {
+          font-weight: 300;
+          font-size: 1.4em;
+          line-height: 1.2em;
+          font-family: "빙그레체";
+          
+        }
+        .pofol p {
+          font-size: 0.9em;
+          letter-spacing: 1px;
+          opacity: 0.9;
+        }
+
+        .pofol:hover figcaption,
+        .pofol.hover figcaption {
+          top: 0px;
+        }
+            h1{
+                text-align: center;
+                font-family : "빙그레체";
+            }
+            #img_pofol {
+                margin-left : 100px;
+
+             }
+   
+</style>
+<body>
+  <!--로고와 메뉴-->
+  
+   <a href="index.html" class="site">LEEAHYEON</a>
+    
+    <div id="headC">
+        <ul id="main_menu">
+           
+            <a href="profile.html">Profile</a>
+            <a href="hw01.html">HW01</a>
+            <a href="hw02.html">HW02</a>
+            <a href="hw03.html">HW03</a>
+            <a href="hw04.html">HW04</a>
+            <a href="hw05.html">HW05</a>
+            <a href="portfolio.html">Portfolio</a>
+         
+        </ul>
+     </div>
+     
+     <!--타이틀-->
+     <h1>PORTPOLIO ;></h1>
+     
+       <!--이미지와 설명-->
+        <div id=img_pofol>
+             <figure class="pofol">
+               <img src="./img/max.jpg" alt="3dmax" />
+                 <figcaption>
+                   <h3>3DMAX</h3>
+                     <p>3D 모델 제작 후, 우주와 바다를 합성 하여 배경을 만들어 초현실 적이고몽환 적인 느낌을 낸 작품이다.</p>
+                 </figcaption>
+                 <a href="#"></a>
+             </figure>
+              
+             <figure class="pofol">
+                  <img src="./img/%EC%BD%98%EB%94%94.jpg" alt="콘디" />
+                       <figcaption>
+                            <h3>Web Design</h3>
+                              <p>초현실주의 작가 '르네 마그리트'를 소개하는 웹페이지를 디자인 했다.</p>
+                       </figcaption>
+                   <a href="#"></a>
+            </figure>
+            
+            <figure class="pofol">
+                 <img src="./img/갬돌.jpg" alt="3DMAX" />
+                      <figcaption>
+                           <h3>3DMAX</h3>
+                             <p>
+                                3D 모델링 제작 중, omni조명, 그림자 색 등을 사용 해 전체적인 배경 분위기를 변환시키는 작업을 했다.
+                             </p>
+                      </figcaption>
+                  <a href="#"></a>
+            </figure>
+            
+            <figure class="pofol">
+                 <img src="./img/표범.jpg" alt="3DMAX" />
+                      <figcaption>
+                           <h3>Illustraion</h3>
+                                <p>
+                                    표범이 달리는 영상을 제작하기 위해 일러스트 작업을 한 일부분 이다.
+                                </p>
+                     </figcaption>
+                  <a href="#"></a>
+           </figure>
+
+    </div>
+   
+     
+    
+    
+</body>
+</html>
