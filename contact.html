@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+ <style>
+     .site {
+        display : inline-block;
+        color : #cccccc;
+        text-decoration :none;
+        padding-bottom : 0px;
+        font-family : "barcode font";
+        font-size : 60px;
+        margin-left: 15px;
+        transition: all 0.5s;
+    }
+    .site:hover {
+        text-decoration : underline;
+        color : #606060;
+        font-size: 55px;
+        
+    }
+     /*메인메뉴*/
+     #main_menu ul {
+        margin : 0;
+        padding : 0;
+        margin-top : 0px;       
+    }
+    #main_menu  a {
+        text-decoration : none;
+                color : #afafaf;
+        font-family : "빙그레체";
+        font-weight : bold;
+        font-size : 12px;
+        display : inline-block;
+        padding : 0px 0px 5px 0px;
+        margin-right :5px;
+    
+         }
+    #main_menu a:hover {
+        color: #98a8ff;
+        font-family : "배달의민족 주아";
+        font-weight : 100;
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        transition: all 0.2s;
+    }
+    
+    #headC {
+        float : right;
+        margin-right : 1px;
+        list-style: none;
+    }
+     
+     body {
+            background-color: #212121;;
+            margin:
+        }
+        
+        #wrapper {
+            margin-top: 20px;
+            table-layout: auto;
+        }
+        
+        #contact {
+            width: 300px;
+            margin: 0 auto;
+            color: white;
+            margin-bottom: 40px;
+            transform: scale(1);
+            /*바뀌는 속도*/
+            transition: all 0.1s;
+        }
+        
+        #contact:hover {
+            color: #d4ccff;
+            /* 크기 바뀌기
+            transform: scale(1.4); */
+            
+            
+        }
+        .clear {
+            clear: both;
+        }
+     
+        form {
+            color: #d4ccff;
+            font-size: 14px;
+            height: 340px;
+        }
+        
+        table {
+            margin: 0 auto;
+            width: 450px;
+        }
+        
+        td {
+            padding-top: 10px;
+        }
+        
+        .button {
+            background-color: #ffffff;
+            border-style: none;
+            padding: 8px;
+            color: black;
+            transition: all 0.5s;
+        }
+        
+        .button:hover {
+            background: #6a7bff;
+            color: #ffffff;
+            transform: scale(0.8);
+        }
+        
+</style>
+<body>
+     <a href="index.html" class="site">LEEAHYEON</a>
+    
+    <div id="headC">
+        <ul id="main_menu">
+           
+            <a href="contact.html">CONTACT?</a>
+            <a href="profile.html">Profile</a>
+            <a href="hw01.html">HW01</a>
+            <a href="hw02.html">HW02</a>
+            <a href="hw03.html">HW03</a>
+            <a href="hw04.html">HW04</a>
+            <a href="hw05.html">HW05</a>
+            <a href="hw06.html">HW06</a>
+            
+            <a href="portfolio.html">Portfolio</a>
+        </ul>
+     </div>
+     
+     <div id="wrapper">
+        <h1 id="contact">Contact ???</h1>
+        
+    <!--    폼 시작    -->
+        <form>
+            <table>
+                <tr>
+                    <td>이름</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td>
+                        <input type="text" name="mail">
+                        @
+                        <select name="emailsite">
+                            <option value="none">선택하세요</option>
+                            <option value="naver">naver.com</option>
+                            <option value="google">gmail.com</option>
+                            <option value="daum">daum.net</option>
+                            <option value="site">직접 입력하세요</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>제목</td>
+                    <td><input type="text" name="title"></td>
+                </tr>
+                <tr>
+                    <td>내용</td>
+                    <td><textarea name="message" id="" cols="50" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="전송" class="button">
+                        <input type="reset" value="재설정" class="button"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
