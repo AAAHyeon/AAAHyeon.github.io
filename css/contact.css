@@ -1,0 +1,109 @@
+ .site {
+        display : inline-block;
+        color : #cccccc;
+        text-decoration :none;
+        padding-bottom : 0px;
+        font-family : "barcode font";
+        font-size : 60px;
+        margin-left: 15px;
+        transition: all 0.5s;
+    }
+    .site:hover {
+        text-decoration : underline;
+        color : #606060;
+        font-size: 55px;
+        
+    }
+     /*메인메뉴*/
+     #main_menu ul {
+        margin : 0;
+        padding : 0;
+        margin-top : 0px;       
+    }
+    #main_menu  a {
+        text-decoration : none;
+                color : #afafaf;
+        font-family : "빙그레체";
+        font-weight : bold;
+        font-size : 12px;
+        display : inline-block;
+        padding : 0px 0px 5px 0px;
+        margin-right :5px;
+    
+         }
+    #main_menu a:hover {
+        color: #98a8ff;
+        font-family : "배달의민족 주아";
+        font-weight : 100;
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+        transition: all 0.2s;
+    }
+    
+    #headC {
+        float : right;
+        margin-right : 1px;
+        list-style: none;
+    }
+     
+     body {
+            background-color: #212121;;
+            margin:
+        }
+        
+        #wrapper {
+            margin-top: 20px;
+            table-layout: auto;
+        }
+        
+        #contact {
+            width: 300px;
+            margin: 0 auto;
+            color: white;
+            margin-bottom: 40px;
+            transform: scale(1);
+            /*바뀌는 속도*/
+            transition: all 0.1s;
+        }
+        
+        #contact:hover {
+            color: #d4ccff;
+            /* 크기 바뀌기
+            transform: scale(1.4); */
+            
+            
+        }
+        .clear {
+            clear: both;
+        }
+     
+        form {
+            color: #d4ccff;
+            font-size: 14px;
+            height: 340px;
+        }
+        
+        table {
+            margin: 0 auto;
+            width: 450px;
+        }
+        
+        td {
+            padding-top: 10px;
+        }
+        
+        .button {
+            background-color: #ffffff;
+            border-style: none;
+            padding: 8px;
+            color: black;
+            transition: all 0.5s;
+        }
+        
+        .button:hover {
+            background: #6a7bff;
+            color: #ffffff;
+            transform: scale(0.8);
+        }
+        

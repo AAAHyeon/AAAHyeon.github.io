@@ -1,0 +1,13 @@
+#bxslider {
+    margin-top:100px;
+    padding : 40px;
+    margin-left : 400px;
+    width:600px;
+    
+   }
+
+#bxslider img {
+    width :600px;
+    display: inline-block;
+}
+

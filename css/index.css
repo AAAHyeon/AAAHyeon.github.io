@@ -1,0 +1,95 @@
+ body {
+          background-color: #ffffff;
+    }
+
+/* 헤더*/
+    header {
+        max-width : 1920px;
+    }
+    
+    /*사이트 로고*/
+  .site {
+        display : inline-block;
+        color : #5a5a5a;
+        text-decoration :none;
+        padding-bottom : 0px;
+        font-family : "barcode font";
+        font-size : 60px;
+        margin-left: 15px;
+        margin-top: 15px;
+        
+    }
+    .site:hover {
+        color : #b99fff;
+        font-size: 55px;
+    }
+    /*사이트 로고 끝 */
+    
+    /*헤더 A,C*/
+    #headA p {
+        font-size : 10px;
+        margin-top: 2px;
+        margin-left: 45px;
+        color : 
+    }
+    #headA {
+        max-width : 1000px;
+        float : left;
+    }
+    #headC {
+        float : right;
+        margin-right : 1px;
+        list-style: none;
+    }
+    /*헤더 A,C 끝*/
+.text {
+    float:left;
+    width: %;
+    text-align: center;
+    
+}
+  
+   .conB {
+        
+       
+       padding-right :20px;
+       margin-left: 380px;
+       
+        
+    }
+    .conB .container .text {
+        padding: 50px;
+    }
+
+    .conB .container .text .fas {
+        font-size: 35px;
+        color: #86a6ff;;
+        transition: all 0.5s;
+        margin-bottom: 20px;
+    }
+
+
+    .conB .container .text .title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .conB .container .text p {
+        height: 80px;
+        font-size: 13px;
+        margin: 10px 0 0 0px;
+    }
+
+    .conB .container .text a {
+        color: #7c7c7c;
+        text-decoration: none;
+        transition: all 0.15s;
+    }
+
+    .conB .container .text a:hover, a:visited {
+        color: #6f8bff;
+        text-decoration: none;
+}
+.container * {
+    text-align: center;
+}
