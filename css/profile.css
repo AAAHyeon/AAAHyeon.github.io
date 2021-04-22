@@ -1,0 +1,31 @@
+
+/* 21861092_이아현 */
+
+.prof1 img{
+  float: left;
+  padding-top: 10%;
+  margin-left: 20%;
+
+}
+
+.text {
+margin-left: 50%;
+padding-top: 20%;
+padding-bottom:20%;
+width:50%;
+color: white;
+}
+
+.txt a {
+  margin-left: 20%;
+  text-decoration: none;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.txt a:hover {
+  font-size: 80px;
+  color: #FF8000;
+}

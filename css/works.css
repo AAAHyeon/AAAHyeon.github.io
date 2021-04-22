@@ -1,0 +1,34 @@
+/* 21861092_이아현 */
+
+.works {
+  text-align: center;
+
+}
+
+
+
+.works_menu li{
+  display: inline-block;
+}
+
+.works_menu li a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+  padding:20px;
+
+
+}
+
+.works_menu li a:hover {
+  color: #FF8000;
+
+
+}
+
+.motion img {
+  margin-top:10px;
+  width: 100%;
+  object-fit: cover;
+}

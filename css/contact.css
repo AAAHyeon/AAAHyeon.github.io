@@ -1,0 +1,24 @@
+
+/* 21861092_이아현 */
+.gif{
+  text-align: center;
+}
+.contact{
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+.txt a {
+
+  text-decoration: none;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 90px;
+}
+
+.txt a:hover {
+  font-size: 80px;
+  color: #FF8000;
+}
